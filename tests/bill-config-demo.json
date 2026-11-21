@@ -1,0 +1,67 @@
+{
+  "aggregate": {
+    "n_files": 5,
+    "cjk": 1576,
+    "other": 2765,
+    "lo": 2119.65,
+    "hi": 3026.55
+  },
+  "cost": {
+    "lo": 0.021196500000000004,
+    "hi": 0.0302655,
+    "mid": 0.025731000000000004
+  },
+  "price_per_1m": 10.0,
+  "load_mode": "auto",
+  "context_window": 200000,
+  "occupancy_pct": 1.28655,
+  "monthly": {
+    "sessions_per_month": 500,
+    "lo": 10.598250000000002,
+    "hi": 15.13275,
+    "mid": 12.865500000000003
+  },
+  "files": [
+    {
+      "path": "fuzzy-trigger.md",
+      "cjk": 109,
+      "other": 61,
+      "lo": 115.35000000000001,
+      "hi": 165.05,
+      "error": null
+    },
+    {
+      "path": "long-doc.md",
+      "cjk": 1110,
+      "other": 120,
+      "lo": 1031.0,
+      "hi": 1487.0,
+      "error": null
+    },
+    {
+      "path": "mcp.json",
+      "cjk": 0,
+      "other": 2379,
+      "lo": 596.75,
+      "hi": 834.65,
+      "error": null
+    },
+    {
+      "path": "skill-a.md",
+      "cjk": 180,
+      "other": 106,
+      "lo": 190.5,
+      "hi": 273.1,
+      "error": null
+    },
+    {
+      "path": "skill-b.md",
+      "cjk": 177,
+      "other": 99,
+      "lo": 186.05,
+      "hi": 266.75,
+      "error": null
+    }
+  ],
+  "effective_load_mode": "full"
+}

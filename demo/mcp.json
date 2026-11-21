@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "toolbox-a": {
+      "command": "npx",
+      "args": ["@demo/toolbox-a"],
+      "tools": [
+        {"name": "a_fetch", "description": "Fetch a remote resource by URL and return its content."},
+        {"name": "a_search", "description": "Search an index and return matching documents."},
+        {"name": "a_insert", "description": "Insert a record into the store."},
+        {"name": "a_update", "description": "Update an existing record in the store."},
+        {"name": "a_delete", "description": "Delete a record from the store."},
+        {"name": "a_list", "description": "List records with optional filters."},
+        {"name": "a_count", "description": "Count records matching a filter."},
+        {"name": "a_export", "description": "Export records to a file format."}
+      ]
+    },
+    "toolbox-b": {
+      "command": "npx",
+      "args": ["@demo/toolbox-b"],
+      "tools": [
+        {"name": "b_validate", "description": "Validate a JSON document against a schema."},
+        {"name": "b_normalize", "description": "Normalize text by lowercasing and stripping whitespace."},
+        {"name": "b_compare", "description": "Compare two documents and return a diff."},
+        {"name": "b_merge", "description": "Merge two documents into one."},
+        {"name": "b_split", "description": "Split a document into parts."}
+      ]
+    },
+    "toolbox-c": {
+      "command": "npx",
+      "args": ["@demo/toolbox-c"],
+      "tools": [
+        {"name": "c_send", "description": "Send a message to a channel."},
+        {"name": "c_read", "description": "Read messages from a channel."},
+        {"name": "c_reply", "description": "Reply to a specific message."},
+        {"name": "c_delete", "description": "Delete a message."},
+        {"name": "c_pin", "description": "Pin a message to the top of a channel."}
+      ]
+    },
+    "toolbox-d": {
+      "command": "npx",
+      "args": ["@demo/toolbox-d"],
+      "tools": [
+        {"name": "d_upload", "description": "Upload a local file to remote storage."},
+        {"name": "d_download", "description": "Download a file from remote storage."},
+        {"name": "d_list_files", "description": "List files in a remote directory."},
+        {"name": "d_delete_file", "description": "Delete a remote file."},
+        {"name": "d_rename_file", "description": "Rename a remote file."}
+      ]
+    }
+  }
+}
